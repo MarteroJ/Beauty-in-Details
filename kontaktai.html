@@ -6,43 +6,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Kontaktai</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/heading.css">
 </head>
 
 <body>
-  <table cellspacing="50">
+  <table cellspacing="5">
     <tr>
       <td>
-        <h2>Mūsų kontaktai:</h2>
-        <p><strong>Telefonas: </strong>862757500</p>
-        <p><strong>Adresas:</strong> <a target="_blank" href="https://goo.gl/maps/9517hjvrD5y6saJx6">Giedraičių g. 39, Vilnius</a></p>
-        <img src="images/capture.jpg" alt="Beauty in Details salonas" width="250" height="200">
-      </td>
-      <td>
-        <h3>Užsiregistruokite</h3>
-        <form class="" action="mailto:info@beautyindetails.lt" method="post" enctype="text/plain">
-          <label>Vardas</label>
-          <input type="text" name="Vardas" value=""><br>
-          <label>Pavardė</label>
-          <input type="text" name="Pavarde" id=""><br>
-          <label>Elektronis paštas</label>
-          <input type="text" name="Elektroninis pastas" id=""><br>
-          <label for="">Plaukai</label>
-          <input type="checkbox" name="Procedura" value="Plaukai"><br>
-          <label for="">Nagai</label>
-          <input type="checkbox" name="Procedura" value="Nagai"><br>
-          <label for="">Oda</label>
-          <input type="checkbox" name="Procedura" value="Oda"><br>
-          <label for="">pasirinkite datą</label>
-          <input type="date" name="Rezervacijos data" value=""><br>
-          <label for="">Papildoma informacija</label><br>
-          <textarea name="Papildoma informacija:" rows="4" cols="40"></textarea><br>
-          <label for="">Slaptažodis</label>
-          <input type="password" name="Sukurtas slaptazodis" value=""><br>
-          <input type="submit" name="" value="Išsiųsti užklausą">
-      </form>
-        </form>
-      </td>
+        <table>
+          <tr>
+            <td>
+              <h3 align="center">Mūsų kontaktai</h3>
+            </td>
+          <tr>
+            <td><strong>Telefonas: </strong>862757500</td>
+          </tr>
+          <tr>
+            <td><strong>Adresas:</strong> <a target="_blank" href="https://goo.gl/maps/9517hjvrD5y6saJx6">Giedraičių g. 39, Vilnius</a></td>
+          </tr>
+          <tr>
+            <td><img src="images/capture.jpg" alt="Beauty in Details salonas" width="250" height="200"></td>
+          </tr>
     </tr>
+  </table>
+  </td>
+  <td>
+    <h3 align="center">Užsiregistruokite</h3>
+    <form class="" action="mailto:info@beautyindetails.lt" method="post" enctype="text/plain">
+      <table>
+        <tr>
+          <td align="right">Vardas</td>
+          <td align="left"><input type="text" name="Vardas" value=""></td>
+        </tr>
+        <tr>
+          <td align="right">Pavardė</td>
+          <td align="left"><input type="text" name="Pavarde" value=""></td>
+        </tr>
+        <tr>
+          <td align="right">Elektroninis paštas</td>
+          <td align="left"><input type="email" name="Elektronis pastas" value=""></td>
+        </tr>
+        <tr>
+          <td align="right">Pasirinkite procedūrą</td>
+          <td align="left"><select id="myList" name="Pasirinkta procedura">
+              <option value="Oda">Oda</option>
+              <option value="Nagai">Nagai</option>
+              <option value="Plaukai">Plaukai</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">Pasirinkite datą</td>
+          <td align="left"><input type="date" name="Rezervacijos data" value=""></td>
+        </tr>
+        <tr>
+          <td align="right">Papildoma informacija</td>
+          <td align="left"><textarea name="Papildoma informacija:" rows="4" cols="40"></textarea></td>
+        </tr>
+        <tr>
+          <td align="right">Slaptažodis</td>
+          <td align="left"><input type="password" name="Sukurtas slaptazodis" value=""></td>
+        </tr>
+        <tr>
+          <td align="right"><input type="submit" name="" value="Išsiųsti užklausą"></td>
+        </tr>
+      </table>
+    </form>
+  </td>
   </table>
 
 
